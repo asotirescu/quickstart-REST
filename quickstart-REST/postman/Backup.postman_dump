@@ -1,0 +1,239 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+			"name": "jersey2x - simple",
+			"description": "",
+			"order": [
+				"dc660c58-52cc-f6bd-ffb2-853dae68128e",
+				"0ea3ca7c-2110-2f85-ed9d-a0bc4d7ceccd",
+				"cea0b710-06ac-6e37-05b3-ec8e056408d9"
+			],
+			"folders": [],
+			"timestamp": 1412702695465,
+			"synced": false,
+			"remote_id": 188130,
+			"requests": [
+				{
+					"id": "0ea3ca7c-2110-2f85-ed9d-a0bc4d7ceccd",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306220664,
+					"name": "http://{{host}}:8090/jersey2x/api/test-resource",
+					"description": "",
+					"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+					"responses": [],
+					"synced": false
+				},
+				{
+					"id": "cea0b710-06ac-6e37-05b3-ec8e056408d9",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource/two-2",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306712171,
+					"name": "req with parameter parsing",
+					"description": "",
+					"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491"
+				},
+				{
+					"id": "dc660c58-52cc-f6bd-ffb2-853dae68128e",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306604934,
+					"name": "http://{{host}}:8090/jersey2x/api/test-resource",
+					"description": "",
+					"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+					"responses": [],
+					"synced": false
+				}
+			]
+		},
+		{
+			"id": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+			"name": "jersey2x - teastore",
+			"description": "",
+			"order": [
+				"5aa80aa7-738e-2dc6-623e-7841b305596c",
+				"310ea103-e4d0-8fb4-9f00-6711f0c641c2",
+				"64666310-150e-f7ed-b1ab-03ebda95268c",
+				"df171fab-aaff-8c73-4c40-cb69470b30e2",
+				"e2f4db06-e68d-b37e-3506-f352feda4a71",
+				"eaed0128-c9a9-485b-dfb5-0ac1d881d2e0"
+			],
+			"folders": [],
+			"timestamp": 1404399388690,
+			"synced": false,
+			"remote_id": 188142,
+			"requests": [
+				{
+					"id": "310ea103-e4d0-8fb4-9f00-6711f0c641c2",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas/1",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306322912,
+					"name": "get specific tea (XML)",
+					"description": "",
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"synced": false
+				},
+				{
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"id": "5aa80aa7-738e-2dc6-623e-7841b305596c",
+					"name": "get all teas",
+					"description": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas",
+					"method": "GET",
+					"headers": "",
+					"data": [],
+					"dataMode": "params",
+					"timestamp": 0,
+					"version": 2,
+					"time": 1412710866148,
+					"synced": false
+				},
+				{
+					"id": "64666310-150e-f7ed-b1ab-03ebda95268c",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas/3",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "DELETE",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306321150,
+					"name": "delete tea",
+					"description": "",
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"synced": false
+				},
+				{
+					"id": "df171fab-aaff-8c73-4c40-cb69470b30e2",
+					"headers": "",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas/1/jsonp?callback=foo",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306329678,
+					"name": "get specific tea (JSONP)",
+					"description": "",
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"synced": false
+				},
+				{
+					"id": "e2f4db06-e68d-b37e-3506-f352feda4a71",
+					"headers": "Accept: application/json\n",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas/1",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"time": 1413306341213,
+					"name": "get specific tea (JSON)",
+					"description": "",
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"synced": false
+				},
+				{
+					"id": "eaed0128-c9a9-485b-dfb5-0ac1d881d2e0",
+					"headers": "Content-Type: application/json\n",
+					"url": "http://{{host}}:{{port}}/jersey2x/api/v1/teastore/teas",
+					"preRequestScript": "",
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\"name\":\"Maocha\",\"origin\":\"Nannuo\",\"country\":\"China\",\"year\":2008}",
+					"dataMode": "raw",
+					"version": 2,
+					"tests": "",
+					"time": 1413306351893,
+					"name": "add a new tea",
+					"description": "",
+					"collectionId": "7ef0cb0f-3d13-a1d1-5838-2256f52ff961",
+					"synced": false,
+					"rawModeData": "{\"name\":\"Maocha\",\"origin\":\"Nannuo\",\"country\":\"China\",\"year\":2008}"
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "fc97b701-e4ce-0714-7a60-0059f2d8ebf0",
+			"name": "quickstart-REST-work",
+			"values": [
+				{
+					"key": "port",
+					"value": "8090",
+					"type": "text",
+					"name": "port",
+					"enabled": true
+				},
+				{
+					"key": "host",
+					"value": "localhost",
+					"type": "text",
+					"name": "host",
+					"enabled": true
+				}
+			],
+			"timestamp": 1413306553844
+		},
+		{
+			"id": "5e0f051d-1537-4c44-c7ae-0031e13e8a8b",
+			"name": "quickstart-REST-home",
+			"values": [
+				{
+					"key": "port",
+					"value": "8090",
+					"type": "text",
+					"name": "port",
+					"enabled": true
+				},
+				{
+					"key": "host",
+					"value": "localhost",
+					"type": "text",
+					"name": "host",
+					"enabled": true
+				}
+			],
+			"timestamp": 1413306573383
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}

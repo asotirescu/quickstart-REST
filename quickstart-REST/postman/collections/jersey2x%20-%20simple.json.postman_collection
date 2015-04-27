@@ -1,0 +1,68 @@
+{
+	"id": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+	"name": "jersey2x - simple",
+	"description": "",
+	"order": [
+		"dc660c58-52cc-f6bd-ffb2-853dae68128e",
+		"0ea3ca7c-2110-2f85-ed9d-a0bc4d7ceccd",
+		"cea0b710-06ac-6e37-05b3-ec8e056408d9"
+	],
+	"folders": [],
+	"timestamp": 1412702695465,
+	"synced": false,
+	"requests": [
+		{
+			"id": "0ea3ca7c-2110-2f85-ed9d-a0bc4d7ceccd",
+			"headers": "",
+			"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1413306220664,
+			"name": "http://{{host}}:8090/jersey2x/api/test-resource",
+			"description": "",
+			"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "cea0b710-06ac-6e37-05b3-ec8e056408d9",
+			"headers": "",
+			"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource/two-2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1413306712171,
+			"name": "req with parameter parsing",
+			"description": "",
+			"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+			"synced": false
+		},
+		{
+			"id": "dc660c58-52cc-f6bd-ffb2-853dae68128e",
+			"headers": "",
+			"url": "http://{{host}}:{{port}}/jersey2x/api/test-resource",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1413306604934,
+			"name": "http://{{host}}:8090/jersey2x/api/test-resource",
+			"description": "",
+			"collectionId": "27651e5e-9e9a-d6d1-8869-0aae73f77491",
+			"responses": [],
+			"synced": false
+		}
+	]
+}
