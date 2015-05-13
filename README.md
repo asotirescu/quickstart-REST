@@ -7,4 +7,5 @@ The code is heavily documented and there is also an HTML documentation of all th
 If you use Postman for unit testing, see the postman directory.
 
 BUILD AND DEPLOY
+
 A gradle build will create a war file that can be deployed in your HTTP container of choice (it has been tested with Tomcat 7).
