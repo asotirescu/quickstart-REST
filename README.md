@@ -8,4 +8,4 @@ If you use Postman for unit testing, see the postman directory.
 
 BUILD AND DEPLOY
 
-A gradle build will create a war file that can be deployed in your HTTP container of choice (it has been tested with Tomcat 7).
+A gradle build will create a war file that can be deployed in your servlet container of choice (it has been tested with Tomcat 7).
