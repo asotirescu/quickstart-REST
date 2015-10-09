@@ -41,7 +41,7 @@ public class MyResourceTest extends JerseyTest {
     	final WebTarget target = target(resourceUrl);
         final String res = target.request().get(String.class);
         System.out.println("Testing GET for " + target.toString());
-        System.out.println("Resource sez: " + res);
+        System.out.println("Resource says: " + res);
         assertEquals(MessageConstants.GET_MESSAGE, res);
     }
     
